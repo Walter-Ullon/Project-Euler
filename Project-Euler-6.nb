@@ -1,0 +1,168 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5713,        159]
+NotebookOptionsPosition[      5179,        135]
+NotebookOutlinePosition[      5528,        150]
+CellTagsIndexPosition[      5485,        147]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"sum2", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"sum", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"x", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"y", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"While", "[", 
+   RowBox[{
+    RowBox[{"x", "<=", "100"}], ",", " ", 
+    RowBox[{
+     RowBox[{"sum", "=", 
+      RowBox[{"sum", "+", 
+       RowBox[{"x", "^", "2"}]}]}], ";", " ", 
+     RowBox[{"x", "++"}]}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"While", "[", 
+   RowBox[{
+    RowBox[{"y", "<=", "100"}], ",", " ", 
+    RowBox[{
+     RowBox[{"sum2", "=", 
+      RowBox[{"sum2", "+", "y"}]}], ";", " ", 
+     RowBox[{"y", "++"}]}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"sum2", "=", 
+   RowBox[{"sum2", "^", "2"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Print", "[", "sum2", "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Print", "[", "sum", "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Print", "[", 
+   RowBox[{"sum2", "-", "sum"}], "]"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.6359340470328817`*^9, 3.63593405714646*^9}, {
+   3.6359341239062786`*^9, 3.6359341826286373`*^9}, {3.6359342628292246`*^9, 
+   3.6359343342963123`*^9}, {3.6359344096796236`*^9, 
+   3.6359344321399083`*^9}, {3.6359345174217863`*^9, 3.635934519664914*^9}, 
+   3.635934567508651*^9, {3.6359346276220894`*^9, 3.635934640537828*^9}, {
+   3.635934880886575*^9, 3.6359349049489517`*^9}, 3.635934986137595*^9, {
+   3.6359350756947174`*^9, 3.6359351014741917`*^9}, 3.635935152163091*^9, 
+   3.635935184676951*^9, 3.635935401911376*^9, {3.635935626067197*^9, 
+   3.635935634391673*^9}, {3.635935698012312*^9, 3.63593572769201*^9}, 
+   3.6359358444676886`*^9, {3.6359358902303066`*^9, 3.635935914119673*^9}, {
+   3.6359360615871077`*^9, 3.635936072891754*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["25502500"], "Print",
+ CellChangeTimes->{{3.6359343097879105`*^9, 3.635934334892346*^9}, 
+   3.6359344367211704`*^9, 3.6359345215850244`*^9, 3.6359345704038167`*^9, 
+   3.635934642971967*^9, {3.635934885127818*^9, 3.635934908399149*^9}, 
+   3.6359349876126795`*^9, 3.635935078675888*^9, 3.635935111078741*^9, 
+   3.6359351570633717`*^9, 3.6359351872340975`*^9, 3.635935403881489*^9, {
+   3.635935686206637*^9, 3.6359357298111305`*^9}, 3.635935847089839*^9, {
+   3.6359358966646743`*^9, 3.6359359195689845`*^9}, 3.6359360750508776`*^9}],
+
+Cell[BoxData["338350"], "Print",
+ CellChangeTimes->{{3.6359343097879105`*^9, 3.635934334892346*^9}, 
+   3.6359344367211704`*^9, 3.6359345215850244`*^9, 3.6359345704038167`*^9, 
+   3.635934642971967*^9, {3.635934885127818*^9, 3.635934908399149*^9}, 
+   3.6359349876126795`*^9, 3.635935078675888*^9, 3.635935111078741*^9, 
+   3.6359351570633717`*^9, 3.6359351872340975`*^9, 3.635935403881489*^9, {
+   3.635935686206637*^9, 3.6359357298111305`*^9}, 3.635935847089839*^9, {
+   3.6359358966646743`*^9, 3.6359359195689845`*^9}, 3.635936075053878*^9}],
+
+Cell[BoxData["25164150"], "Print",
+ CellChangeTimes->{{3.6359343097879105`*^9, 3.635934334892346*^9}, 
+   3.6359344367211704`*^9, 3.6359345215850244`*^9, 3.6359345704038167`*^9, 
+   3.635934642971967*^9, {3.635934885127818*^9, 3.635934908399149*^9}, 
+   3.6359349876126795`*^9, 3.635935078675888*^9, 3.635935111078741*^9, 
+   3.6359351570633717`*^9, 3.6359351872340975`*^9, 3.635935403881489*^9, {
+   3.635935686206637*^9, 3.6359357298111305`*^9}, 3.635935847089839*^9, {
+   3.6359358966646743`*^9, 3.6359359195689845`*^9}, 3.6359360750558777`*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"limit", "=", "100"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"intSum", "=", 
+     RowBox[{"limit", "*", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"limit", "+", "1"}], ")"}], "/", "2"}]}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"sqSum", "=", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"2", "*", "limit"}], "+", "1"}], ")"}], "*", 
+      RowBox[{"(", 
+       RowBox[{"limit", "+", "1"}], ")"}], "*", 
+      RowBox[{"(", 
+       RowBox[{"limit", "/", "6"}], ")"}]}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Print", "[", 
+     RowBox[{
+      RowBox[{"intSum", "^", "2"}], "-", "sqSum"}], "]"}], ";"}]}]}]], "Input",
+ CellChangeTimes->{{3.6359365820548763`*^9, 3.635936766198409*^9}}],
+
+Cell[BoxData["25164150"], "Print",
+ CellChangeTimes->{3.6359367673314734`*^9}]
+}, Open  ]]
+},
+WindowSize->{761, 866},
+WindowMargins->{{Automatic, 374}, {-144, Automatic}},
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (September 9, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1929, 46, 212, "Input"],
+Cell[CellGroupData[{
+Cell[2534, 72, 548, 7, 23, "Print"],
+Cell[3085, 81, 544, 7, 23, "Print"],
+Cell[3632, 90, 548, 7, 23, "Print"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4229, 103, 853, 26, 112, "Input"],
+Cell[5085, 131, 78, 1, 23, "Print"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

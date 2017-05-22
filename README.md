@@ -1,6 +1,6 @@
 # Project-Euler
-Code for the solution of some of the problems as found in the Project Euler website.
-"projectEuler.net"
+Code for the solution of some of the problems as found in the Project Euler website (projectEuler.net).
+
 
 Solutions were implemented mostly in MATLAB, some in Mathematica and Python. 
 
